@@ -1,0 +1,192 @@
+body{
+	font-family: sans-serif;
+	background-size:cover;
+	margin: 0;
+	
+	background-image: url(https://scholarship-positions.com/wp-content/uploads/2015/01/agbu-scholarship_home_2-768x511.png?ezimgfmt=ng:webp/ngcb1);
+}
+ 
+h1{
+	text-align: center;
+	/*ketebalan font*/
+	font-weight: 100;
+    color: hsl(0, 0%, 100%);
+    font: status-bar;
+    font-size: 30px;
+    margin-top: 100px;
+}
+ 
+.tulisan_login {
+    font:status-bar;
+	font-size:20px;
+	text-align: center;
+	/*membuat semua huruf menjadi kapital*/
+	text-transform: uppercase;
+    color:aliceblue;
+}
+
+.kotak_login img{
+	size:5px;
+	width: 100px;
+    height: 60px;
+	margin: auto auto;
+	display:block;
+}
+
+.kotak_login{
+	width: 350px;
+	background-color: rgba(0, 0, 0, 0.8);
+	/*meletakkan form ke tengah*/
+	margin: 80px auto;
+	padding: 30px 20px;
+    border-radius: 30px;
+}
+ 
+label{
+	font-size: 11pt;
+    color:aliceblue;
+}
+ 
+.form_login{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+ 
+.tombol_login{
+	background: #46de4b;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+
+.tombol_login:hover {
+	background-color: rgb(255, 255, 255);
+	color:black;
+}
+ 
+.link{
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}
+
+.header {
+	width: 100%;
+	height: 60px;
+	background-color: rgba(0, 0, 0, 0.8);
+	position: fixed;
+	top: 0;
+	opacity: 0.7;
+	z-index: 10;
+}
+
+.header-left {
+	color: white;
+	float: left;
+	line-height: 60px;
+	margin-left: 40px;
+}
+
+.header-right a {
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0 20px;
+	line-height: 60px;
+	margin-right: 10px;
+
+}
+
+.header-right {
+	float: right;
+	
+	margin-right: 40px;
+}
+
+.header-right a:hover {
+	background-color: rgba(240, 240, 240, 0.5);
+	transition: 1s;
+}
+
+.header-left img {
+	height: 55px;
+	width: 100px;
+
+}
+
+.footer-top img {
+	height: 55px;
+	width: 100px;
+
+}
+
+.footer-top {
+	text-align: center;
+}
+
+.foot {
+	margin-top: 10px;
+}
+
+.footer-logo {
+	position: absolute;
+	top: 0px;
+}
+.footer-logo img {
+	width: 25px;
+	height: 25px;
+	
+	margin-bottom: 5px;
+	display: block;
+}
+
+.footer {
+	width: 100%;
+	height: 100px;
+	background-color: #423F3F;
+	position: relative;
+	opacity: 0.8;
+
+}
+
+.bottom {
+	color: white;
+	text-align: center;
+	
+}
+
+/* Untuk tablet */
+  @media(max-width: 1000px){
+
+	body{
+		background-size: cover;
+	}
+
+
+	  
+  }
+
+  /* Untuk Smartphone */
+@media(max-width: 670px){
+	
+	body{
+		background-size: cover;
+	}
+
+	.footer{
+		position: absolute;
+		bottom: 0px;
+	  }
+
+
+	.kotak_login{
+		
+	}  
+}
